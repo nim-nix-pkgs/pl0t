@@ -11,8 +11,8 @@
   inputs.src-pl0t-main.ref   = "refs/heads/main";
   inputs.src-pl0t-main.owner = "al6x";
   inputs.src-pl0t-main.repo  = "pl0t";
-  inputs.src-pl0t-main.dir   = "api";
-  inputs.src-pl0t-main.type  = "github";
+    inputs.src-pl0t-main.dir   = "api";
+inputs.src-pl0t-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
